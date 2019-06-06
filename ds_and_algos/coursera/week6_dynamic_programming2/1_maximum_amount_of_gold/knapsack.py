@@ -1,8 +1,19 @@
 # Uses python3
 import sys
+# from tqdm import tqdm
+
 
 def optimal_weight(W, w):
     # write your code here
+
+    mem = [None for _ in range(W)]
+
+    for i in w:
+        'save the intermediate results into mem'
+
+
+
+
     result = 0
     for x in w:
         if result + x <= W:

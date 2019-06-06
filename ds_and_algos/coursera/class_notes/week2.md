@@ -12,7 +12,7 @@ Fn =
         1             -> n = 1
         Fn-1 + Fn-2   -> N > 1
      }
-```    
+```
 
 ```python
 def FibRecurs(n):
