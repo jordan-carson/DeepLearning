@@ -12,7 +12,8 @@ used rather than using products.
 **Cross Entropy**
 $$ \log_b(xy) = \log_bx + \log_by $$
 
-
+ h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x
+ 
 **Product Rule**
 
 
