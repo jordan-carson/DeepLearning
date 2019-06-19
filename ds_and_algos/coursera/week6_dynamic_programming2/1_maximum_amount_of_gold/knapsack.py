@@ -1,8 +1,9 @@
 # Uses python3
 import sys
 # from tqdm import tqdm
-
 import pprint
+
+
 def optimal_weight(W, w):
     # write your code here
 

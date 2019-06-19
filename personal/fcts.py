@@ -2,20 +2,9 @@ import os
 import torch
 import sys
 import random
-import copy
-import time
 import pandas as pd
 import numpy as np
-import gc
-import re
-# from torchtext import data
-# import spacy
-from tqdm import tqdm_notebook, tnrange
 from tqdm import tqdm
-tqdm.pandas(desc='Progress')
-from collections import Counter
-# from textblob import TextBlob
-from nltk import word_tokenize
 
 
 def sigmoid(x):
@@ -52,4 +41,4 @@ def random_seed_everything(seed=10):
     torch.manual_seed(seed)
     # torch.cuda.manual_seed(seed)
     # torch.backends.cudnn.deterministic = True
-    
+
