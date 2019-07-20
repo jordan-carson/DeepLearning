@@ -20,6 +20,7 @@ class Network(nn.Module):
         
         # Add a variable number of more hidden layers
         layer_sizes = zip(hidden_layers[:-1], hidden_layers[1:])
+        print(layer_sizes)
         self.hidden_layers.extend([nn.Linear(h1, h2) for h1, h2 in layer_sizes])
         
         self.output = nn.Linear(hidden_layers[-1], output_size)

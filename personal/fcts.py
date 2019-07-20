@@ -7,6 +7,7 @@ import numpy as np
 from tqdm import tqdm
 
 
+
 def sigmoid(x):
     return 1 / (1 + np.exp(-x))
 
@@ -25,6 +26,10 @@ def softmax(L):
     """
     e_l = np.exp(L - np.max(L))
     return e_l / e_l.sum(axis=0)
+
+
+def t_softmax(x):
+    return torch.exp(x) / torch.sum(torch.exp(x), dim=1).view(-1, 1)
 
 
 def cross_entropy(Y, P):
