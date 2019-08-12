@@ -19,6 +19,7 @@ TODO:
  Mathematics, Include Machine Learning Notes from Udacity Machine Learning Nanodegree / Artificial Intelligence Nanodegreee
 
 
+### Directory Tree
 ```
 ├── Notes
 │   ├── 0.\ Applications\ &\ Tools
@@ -104,38 +105,6 @@ TODO:
 │   │   │       ├── Part\ 8\ -\ Transfer\ Learning\ (Exercises).ipynb
 │   │   │       ├── Part\ 8\ -\ Transfer\ Learning\ (Solution).ipynb
 │   │   │       ├── README.md
-│   │   │       ├── __pycache__
-│   │   │       │   ├── fc_model.cpython-36.pyc
-│   │   │       │   └── helper.cpython-36.pyc
-│   │   │       ├── assets
-│   │   │       │   ├── Pooling_Simple_max.png
-│   │   │       │   ├── activation.png
-│   │   │       │   ├── autoencoder_1.png
-│   │   │       │   ├── backprop_diagram.png
-│   │   │       │   ├── cat.70.jpg
-│   │   │       │   ├── cat_cropped.png
-│   │   │       │   ├── conv_net.jpg
-│   │   │       │   ├── dog.128.jpg
-│   │   │       │   ├── dog_cat.png
-│   │   │       │   ├── examples_new.png
-│   │   │       │   ├── fashion-mnist-sprite.png
-│   │   │       │   ├── full_padding_no_strides_transposed.gif
-│   │   │       │   ├── function_approx.png
-│   │   │       │   ├── gradient_descent.png
-│   │   │       │   ├── image_distribution.png
-│   │   │       │   ├── infographic.pdf
-│   │   │       │   ├── lenet.png
-│   │   │       │   ├── mlp_mnist.png
-│   │   │       │   ├── mnist.png
-│   │   │       │   ├── multilayer_diagram_weights.png
-│   │   │       │   ├── network_diagram.png
-│   │   │       │   ├── overfitting.png
-│   │   │       │   ├── padding_strides.gif
-│   │   │       │   ├── simple_neuron.png
-│   │   │       │   ├── tensor_examples.svg
-│   │   │       │   ├── test_examples.png
-│   │   │       │   ├── train_examples.png
-│   │   │       │   └── w1_backprop_graph.png
 │   │   │       ├── checkpoint.pth
 │   │   │       ├── fc_model.py
 │   │   │       └── helper.py
